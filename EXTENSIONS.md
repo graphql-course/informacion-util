@@ -1,6 +1,6 @@
 A continuación os añado la lista de extensiones que uso para el curso. Si encontráis alguna interesante que pueda ser útil para el desarrollo del curso, comentarlo en el apartado de preguntas / respuestas relacionado a esta clase.
 
-Puede que alguna de estas con el tiempo y usando unas versiones + nuevas, por alguna razón que no funcionen bien, por lo que os pido que me aviséis, ya que si no hacen su trabajo bien y nos va a ocasionar problemas, mejor no usarlas
+**Puede que alguna de estas con el tiempo y usando unas versiones + nuevas, por alguna razón que no funcionen bien, por lo que os pido que me aviséis, ya que si no hacen su trabajo bien y nos va a ocasionar problemas, mejor no usarlas**
 
 * [Angular V8 Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2): Añade fragmentos de código en Angular con Typescript y HTML.
 
