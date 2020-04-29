@@ -177,10 +177,33 @@ Ejemplo:
 
 ### 5.- Obtener pilotos de la ronda 5 del año 2018
 
+Obtenemos mediante el año y ronda el resultado con la lista de pilotos.
 
 ### 6.- Obtener pilotos de la ronda 1 del año 2019
 
+Obtenemos mediante el año y ronda el resultado con la lista de pilotos.
+
 ### 7.- Añadir el uso del Fragment en las consultas anteriores de este apartado.
+
+Cogemos las consultas de los ejercicios 5 y 6, los añadimos juntos y hacemos uso del fragment.
+
+Recordad esto y aplicarlo en nuestro ejemplo:
+```
+{
+  character(id: "1" {
+    ...CharacterObject
+  }
+  character(id: "2" {
+    ...CharacterObject
+  }
+}
+fragment CharacterObject on Character {
+  id
+  name
+  actor
+  votes
+}
+```
 
 ### 8.- Combinar el uso del Fragment con la directiva include usando la B-2
 
@@ -188,9 +211,9 @@ Asignamos la directiva "include" para mostrar el "code" e "id" del piloto cuando
 
 Cogemos el ejercicio #2 y lo modificamos para hacer uso con un Fragment.
 
-### 9.- Combinar el uso del Fragment con la directiva include usando la B-2
+### 9.- Combinar el uso del Fragment con la directiva skip usando la B-2
 
-Asignamos la directiva "include" para mostrar el "code" e "id" del piloto cuando le decimos que si. Tenemos que añadir la directiva en esas propiedades y hacer uso del Query Variables.
+Asignamos la directiva "skip" para ignorar el "code" e "id" del piloto cuando le decimos que si. Tenemos que añadir la directiva en esas propiedades y hacer uso del Query Variables.
 
 Cogemos el ejercicio #2 y lo modificamos para hacer uso con un Fragment.
 
@@ -198,4 +221,4 @@ Cogemos el ejercicio #2 y lo modificamos para hacer uso con un Fragment.
 
 Como repaso, os dejo que libremente intentéis ejecutar diferentes queries (no tengáis miedo a probar y "romper" el playground, que es como se aprende) y posteriormente que los compartáis en el apartado de preguntas y respuestas o mediante el grupo **"GraphQL - Español"**.
 
-**Enunciado preparado el 02/05/2020**
+**Enunciado preparado el 30/04/2020**
