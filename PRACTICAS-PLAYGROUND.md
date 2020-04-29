@@ -4,16 +4,24 @@
 
 Enlace a la API: https://f1-graphql.herokuapp.com/
 
-### Obtener lista de todas las temporadas seasonsList
+### 1.- Obtener lista de todas las temporadas seasonsList
 
 Las propiedades que se mostrarán.
 * year
 * url
 * urlMobile
 
-### Obtener lista de todas las temporadas seasonsList (haciendo uso de directivas skip / include)
+### 2.- Obtener lista de todas las temporadas seasonsList (haciendo uso de directivas skip / include)
 
 ...
+### 3.- Obtener lista de todas las temporadas seasonsList (haciendo uso de directivas skip / include)
+
+...
+### 4.- Obtener lista de todas las temporadas seasonsList (haciendo uso de directivas skip / include)
+
+...
+
+Resultado: 
 
 **Enunciado preparado el 20/03/2020**
 
