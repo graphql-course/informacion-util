@@ -222,3 +222,7 @@ Cogemos el ejercicio #2 y lo modificamos para hacer uso con un Fragment.
 Como repaso, os dejo que libremente intentéis ejecutar diferentes queries (no tengáis miedo a probar y "romper" el playground, que es como se aprende) y posteriormente que los compartáis en el apartado de preguntas y respuestas o mediante el grupo **"GraphQL - Español"**.
 
 **Enunciado preparado el 30/04/2020**
+
+Os animo a que añadáis vuestra solución en el apartado de preguntas / respuestas del curso y si no es posible, porque estáis en el gratuito, hacerlo en el grupo de Facebook "GraphQL - Español".
+
+Añadir el título "Playground - Práctica 1"
