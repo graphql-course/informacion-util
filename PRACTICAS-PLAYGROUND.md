@@ -1,8 +1,18 @@
 # Prácticas a realizar para repasar lo aprendido en el playground
 
+Me gustaría que cogáis más soltura con el playground, ya que es un aspecto muy importante en el desarrollo de APIs de GraphQL de cara a consumir esa información. Haciendo uso de las diferentes opciones, podemos conseguir el mismo resultado añadiendo cnsultas más simples y ese es el verdadero objetivo, saber trabajar con directivas (skip / include), hacer uso de fragments, query variables...
+
+Los ejercicios los voy poniendo de menos a más, de consultas sencillas hasta consultas + avanzadas. Espero que lo intentéis y no recurráis al resultado sin intentarlo.
+
+Fundamental que os metáis a ver la documentación de esa API para saber que elementos necesitáis para hacer las consultas y mostrar los resultados. 
+
+¡¡Poco a poco, con paciencia!!
+
 ## PRÁCTICA 1.- API Formula 1
 
 Enlace a la API: https://f1-graphql.herokuapp.com/
+
+## A.- Temporadas (seasonsList)
 
 ### 1.- Obtener lista de todas las temporadas seasonsList
 
@@ -130,6 +140,73 @@ Cogemos el ejercicio #2 y lo modificamos para hacer uso con un Fragment.
 Cogemos el ejercicio #3 y lo modificamos para hacer uso con un Fragment.
 
 Resultado: 
+
+## B.- Pilotos (drivers, historyDrivers, driversYear, driversCount)
+
+### 1.- Obtener número de pilotos
+
+Una consulta que nos devolverá el número de pilotos. Fijaros bien dentro de la documentación.
+
+### 2.- Obtener pilotos del año 2019
+
+Las propiedades que se mostrarán.
+* id
+* url
+* urlMobile
+* name
+* dateOfBirth
+* nationality
+* code
+* permanentNumber
+
+### 3.- Obtener pilotos del año 2018
+
+Mostrar las mismas propiedades, únicamente cambia el año
+
+### 4.- Obtener pilotos de los años 2012 al 2016
+
+Mostrar las mismas propiedades, únicamente cambia el año. Ejecutar varias consulas en la misma query.
+
+Ejemplo:
+```
+{
+  character(id: "1" {
+    id
+    name
+    actor
+    votes
+  }
+  character(id: "2" {
+    id
+    name
+    actor
+    votes
+  }
+}
+```
+
+### 5.- Obtener pilotos de la ronda 5 del año 2018
+
+
+### 6.- Obtener pilotos de la ronda 1 del año 2019
+
+### 7.- Añadir el uso del Fragment en las consultas anteriores de este apartado.
+
+### 8.- Combinar el uso del Fragment con la directiva include usando la B-2
+
+Asignamos la directiva "include" para mostrar el "code" e "id" del piloto cuando le decimos que si. Tenemos que añadir la directiva en esas propiedades y hacer uso del Query Variables.
+
+Cogemos el ejercicio #2 y lo modificamos para hacer uso con un Fragment.
+
+### 9.- Combinar el uso del Fragment con la directiva include usando la B-2
+
+Asignamos la directiva "include" para mostrar el "code" e "id" del piloto cuando le decimos que si. Tenemos que añadir la directiva en esas propiedades y hacer uso del Query Variables.
+
+Cogemos el ejercicio #2 y lo modificamos para hacer uso con un Fragment.
+
+### 10.- Crear vuestras Queries con las diferentes variantes que os he dado y usando las definiciones del Schema
+
+Como repaso, os dejo que libremente intentéis ejecutar diferentes queries (no tengáis miedo a probar y "romper" el playground, que es como se aprende) y posteriormente que los compartáis en el apartado de preguntas y respuestas o mediante el grupo **"GraphQL - Español"**.
 
 **Enunciado preparado el 02/05/2020**
 
