@@ -6,7 +6,7 @@ A continuación os añado la lista de extensiones que uso para el curso. Si enco
 
 * [Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets](https://marketplace.visualstudio.com/items?itemName=thekalinga.bootstrap4-vscode): Añade fragmentos de Bootstrap 4, Font awesome 4 & Font Awesome 5 Free & Pro.
 
-* [Node.js Modules Intellisense](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense): Para atucompletar en Javascript / Typescript cuando estamos importando módulos.
+* [Node.js Modules Intellisense](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense): Para autocompletar en Javascript / Typescript cuando estamos importando módulos.
 
 * [Auto Import](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport): Ayuda para importar librerías, clases,...
 
