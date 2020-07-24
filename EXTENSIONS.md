@@ -14,4 +14,4 @@ A continuación os añado la lista de extensiones que uso para el curso. Si enco
 
 * [TS Lint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin): Agrega tslint a VS Code usando el complemento de servicio de lenguaje TSLint de TypeScript.
 
-* [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv): Para trabajar en ficheros con extensión .env donde vamos a gestionar las variables de entorno.
+* [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) (esto se usa en el curso Premium): Para trabajar en ficheros con extensión .env donde vamos a gestionar las variables de entorno.
