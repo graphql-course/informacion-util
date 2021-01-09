@@ -10,10 +10,10 @@ Fundamental que os metáis a ver la documentación de esa API para saber que ele
 
 * [PRÁCTICA 1 - API Formula 1](/practicas-playground/1-Formula-1.md)
 
-* [PRÁCTICA 2.- ¿?](/practicas-playground/2-Sin-Definir.md)
+* [PRÁCTICA 2.- Rest Countries](/practicas-playground/2-rest-countries.md)
 
 ## Me gustaría que propusieráis vosotros con lo que queráis trabajar, para centrarme en lo que queráis.
 
-Enlace a la API: Pendiente de añadir
+Enlace a la API: Pendiente de añadir propuestas.
 
 
