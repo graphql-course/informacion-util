@@ -12,7 +12,6 @@ A continuación os añado la lista de extensiones que uso para el curso. Si enco
 
 * [GraphQL Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql): Para poder trabajar + cómodamente en los ficheros .graphql
 
-* [TS Lint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin): Agrega tslint a VS Code usando el complemento de servicio de lenguaje TSLint de TypeScript.
-* // La Extensión de TS Lint se deprecó en VSCode, se sugiere usar en su lugar ESLint
+* La Extensión de TS Lint se ha deprecado en VSCode, se sugiere usar en su lugar [ESLint](https://johnserrano.co/blog/configurar-eslint-con-vscode-para-javascript). Gracias por el aviso [Gib-Iglesias](https://github.com/Gib-Iglesias)
 
 * [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv) (esto se usa en el curso Premium): Para trabajar en ficheros con extensión .env donde vamos a gestionar las variables de entorno.
